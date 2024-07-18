@@ -1,0 +1,1 @@
+This repo is a practice set of javascript 30 days challenge provided by Hitesh Sir. Hitesh sir is very good teacher in youtube, who wants to take class of programming and web development, his you tube channel is best for this. The channel name is 'Chai aur code' and there is another channel 'Hitesh Choudhary' where sir teach programming in English language.
