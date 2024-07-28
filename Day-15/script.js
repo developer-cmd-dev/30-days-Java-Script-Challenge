@@ -100,7 +100,7 @@ collectionOfFunc.forEach((element, index) => {
 
 function module() {
     const items = []
-    function addItem(value) {
+    function addItem(...value) {
         value.forEach((element) => items.push(element))
         console.log('Items ADDED! New list is ', items)
     }
@@ -121,7 +121,7 @@ function module() {
 const addItem = module()[0]
 const removeItem = module()[1]
 const listItem = module()[2]
-addItem(['Mother board.', 'Mouse', 'Keyboard', "Monitor", 'Javascipt', 'Java'])
+addItem('Mother board.', 'Mouse', 'Keyboard', "Monitor", 'Javascipt', 'Java')
 
 
 
@@ -159,10 +159,6 @@ const memoize = (fn) => {
 
 const value = memoize(sumOfNumber)
 console.log(value(5))
-
-
-
-
 
 
 
