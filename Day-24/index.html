@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather App.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div id="weather">
+        <div id="mainCard">
+            <div id="city">
+                <div class="cityName">
+                    <div id="cityData">
+                        <h2 id="cityName">-</h2>
+                        <p id="cityRegion" style="margin-left: 10px; opacity: 0.5;font-size: 14px;"></p>
+                        <p>-</p>
+                        <p style=" opacity: 0.5;font-size: 14px;" id="cityCountry"></p>
+                    </div>
+                  
+                    <div id="condition">
+                        <div id="weatherType">
+                            <p id="weatherCond">-</p>
+                        </div>
+                        <p style="margin-left: 5px; margin-right: 5px;">&#x2022</p>
+                        <div id="time">-</div>
+                    </div>
+
+                </div>
+                <div id="logo">
+                    <img src="" id="weatherLogo" alt="">
+                </div>
+            </div>
+            <div class="weatherData" id="windVisibility">
+                <div id="wind">
+                    <h4>Wind</h4>
+                    <div class="data" >
+                        <img src="./rsrc/icons/wind.png" class="weatherIcons" id="windLogo" alt="">
+                        <p id="windData">-</p>
+                    </div>
+
+                </div>
+
+                <div class="visibilityHumidity" id="visibility">
+                    <h4>visibility
+                    </h4>
+                    <div class="data" id="visibilityData">
+                        <img src="./rsrc/icons/visibility.png" class="weatherIcons" id="visibilityLogo" alt="">
+                        <p>-</p>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="weatherData" id="airHumaditiy">
+                <div id="ariQuality">
+                    <h4>Air Quality</h4>
+                    <div class="data" id="airQualityData">
+                        <img src="./rsrc/icons/quality.png" class="weatherIcons" id="airQualityLogo" alt="">
+                        <p>-</p>
+                    </div>
+
+                </div>
+                <div class="visibilityHumidity" id="humidity">
+                    <h4>Humidity
+                    </h4>
+                    <div class="data" >
+                        <img src="./rsrc/icons/humidity.png" class="weatherIcons" id="humidityLogo" alt="">
+                        <p id="humidityData">-</p>
+                    </div>
+
+                </div>
+
+                <div id="tempData">
+                    <h1 id="tempreature">-</h1>
+                    <h1 id="celcius">&#266</h1>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div id="searchCity" >
+            
+                <input id="cityNameInput" type="text">
+                <button id="searchBtn" onclick=getUserInput()><i class="fa fa-search"></i>Search</button>
+           
+        </div>
+   
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
