@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converse.io</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body class="blured">
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./assests/Icones/logo.png" alt="">
+                <h1>converse.</h1>
+            </div>
+
+            <div class="nav-menu">
+                <p id="contact">Chat</p>
+                <p>Video Call</p>
+                <p>Call</p>
+                <p>Friends</p>
+            </div>
+
+            <div class="user-profile">
+                <div class="user-profile-notification">
+                    <img src="./assests/Icones/notification.png" alt="">
+                </div>
+                <div class="user-profile-setting">
+                    <img src="./assests/Icones/setting (2).png" alt="">
+                </div>
+                <div class="user-profile-dp">
+                    <img src="./assests/Icones/emojisky.com-89987.png" alt="">
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Enter user name -->
+         <div id="userName">
+            <img src="./assests/Icones/logo.png" alt="">
+            <input type="text"  name="" id="username" placeholder="Your Name.">
+            <button id="setUsernameBtn"><img src="./assests/Icones/arrow.png        " alt=""></button>
+         </div>
+         <div id="blurEffect">
+         </div>
+
+
+        <div class="joined-user-container">
+            <div class="join-user-heading">
+                <span id="bullet"></span>
+                <p id="heading">User Joined</p>
+                <p id="user-count"></p>
+            </div>
+
+            <div class="joined-user-detail">
+        
+            </div>
+
+
+
+        </div>
+
+
+        <div class="chat-container">
+            <div class="chat-menu">
+                <div class="chat-bullets">
+                    <div id="bullet-1"></div>
+                    <div id="bullet-2"></div>
+                    <div id="bullet-3"></div>
+                </div>
+                <div class="chat-calls">
+                    <div class="chat-calls-menu">
+                        <img src="./assests/Icones/call.png" alt="">
+                        <img src="./assests/Icones/signout.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="see-user-messages">
+             
+       
+            </div>
+
+
+            <div class="chat-send-message-container">
+                <div class="attachment-btn">
+                    <img src="./assests/Icones/attachment.png" alt="">
+                </div>
+                <div class="type-message-field">
+                    <input id="messageInp" type="text" placeholder="Your Message">
+
+                </div>
+
+                <div class="send-message-menu">
+                    <button id="sndMessageBtn" class="send-message-btn" style="border: none;"><img src="./assests/Icones/sendmessage.png" alt=""></button>
+                    <div class="mic-btn"><img src="./assests/Icones/mic.png" alt=""></div>
+
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+    </main>
+
+
+
+
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+height: 100%;
+background-color: black;
+padding: 10px;
+font-family: "Nunito Sans", sans-serif;
+
+
+}
+
+
+
+
+/* Header */
+.navbar{
+height: 90px;
+width: 100%;
+/* border:1px solid red; */
+background-color:#111111;
+border-radius: 30px;
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+
+
+}
+
+.logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 20px;
+}
+
+.logo h1{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 300;
+    color: white;
+    font-size: 1.4rem;
+    
+}
+
+.logo img{
+    width: 60px;
+}
+
+.nav-menu{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-weight: 100;
+    
+}
+
+#contact{
+    background-color: #2669EA;
+    color: white;
+    height: 40px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+
+}
+
+.user-profile{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.user-profile-notification{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 30px;
+  
+}
+
+.user-profile-notification img {
+    width: 20px;
+}
+
+.user-profile-setting{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+.user-profile-setting img{
+    width: 20px;
+}
+
+.user-profile-dp{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+
+}
+
+.user-profile-dp img{
+    width: 40px;
+}
+
+
+/* Main */
+
+main{
+    height: 600px;
+    width: 99%;
+    margin: auto;
+    background-color:#111111;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+#userName{
+position: absolute;
+width: 700px;
+height: 200px;
+background-color:#111111;   
+z-index: 3;
+margin: auto;
+top: 50%;
+bottom: 50%;
+display: flex;
+align-items: center;
+border-radius: 30px;
+justify-content: space-around;
+
+}
+
+#userName img{
+    width: 140px;
+}
+
+#userName input{
+    border: none;
+    width: 300px;
+    height: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-left: 30px;
+   
+}
+
+#setUsernameBtn{
+    border: none;
+    width: 60px;
+    height: 45px;
+    background-color:#2669EA ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#setUsernameBtn:hover{
+    width: 80px;
+}
+
+
+
+#setUsernameBtn img{
+    width: 30px;
+}
+
+::placeholder{
+    font-style: italic;
+    color: black;
+    font-size: 0.9rem;
+}
+
+#blurEffect{
+    top: 0px;
+    position: absolute;
+    backdrop-filter: blur(70px);
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+
+
+.joined-user-container{
+    width: 22%;
+    height: 95%;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.join-user-heading{
+    height: 50px;
+    width: 90%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+#bullet{
+    height: 10px;
+    width: 10px;
+    border-radius: 20px;
+    background-color: rgb(17, 250, 17);
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+#heading{
+    
+}
+
+#user-count{
+    margin-left: 120px;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.joined-user-detail{
+height: 80%;
+width: 90%;
+margin-top: 10px;
+display: flex;
+align-items: center;
+justify-content: start;
+flex-direction: column;
+background-color: white;
+border-radius: 30px;
+padding-top: 15px;
+padding-bottom: 10px;
+overflow-y: auto;
+
+}
+
+.users{
+    height: 60px;
+    width: 90%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+
+.users img{
+    width: 30px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.users p{
+    font-weight: 100;
+}
+
+
+
+
+.chat-menu{
+    width: 100%;
+    height:45px;
+    position: absolute;
+    top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.chat-bullets{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.chat-bullets div{
+margin-left: 8px;
+
+}
+
+#bullet-1{
+    width: 15px;
+    height: 15px;
+    background-color: #FE5F57;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+#bullet-2{
+    width: 15px;
+    height: 15px;
+    background-color: #FCC828;
+    border-radius: 20px;
+}
+#bullet-3{
+    width: 15px;
+    height: 15px;
+    background-color: #27CD39;
+    border-radius: 20px;
+}
+
+.chat-calls{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.chat-calls-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+    height: 80%;
+    margin-right: 60px;
+    background-color:#2669EA ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.chat-calls-menu img{
+    width: 22px;
+}
+
+
+
+.chat-container{
+    width: 74%;
+    height: 95%;
+    /* background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6)), url(../assests/Background/pexels-adrien-olichon-1257089-2387793.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+}
+
+
+
+
+
+.see-user-messages{
+width: 100%;
+height:400px;
+top: 75px;
+position: absolute;
+overflow-x:auto;
+scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    background:none;
+    width: 10px;
+
+}
+::-webkit-scrollbar-track{
+    background:none;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 10px;
+    width: 9px;
+}
+
+
+
+.msg-1{
+    color: white;
+   display: flex;
+   align-items: center;
+   justify-content: start;
+}
+
+.msg-1 span{
+    max-width: 500px ;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: fit-content;
+    background-color: white;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+
+.msg-2{
+    color: white;
+   display: flex;
+   align-items: center;
+   justify-content: end;
+    }
+
+.msg-2 p{
+    max-width: 500px ;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+
+
+
+.chat-send-message-container{
+    width: 95%;
+    height: 60px;
+    position: absolute;
+    bottom: 30px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(40px);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.attachment-btn{
+    background-color:#2669EA ;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 50px;
+    height: 40px;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    border-bottom-left-radius:20px ;
+    margin-left: 25px;
+}
+
+.attachment-btn img{
+    width: 28px;
+  
+    transform: rotate(30deg);
+}
+
+.type-message-field input{
+    border: none;
+    width: 800px;
+    height: 40px;
+    margin-left: 20px;
+    background: white;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.send-message-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send-message-menu img{
+    width: 25px;
+    
+}
+
+.send-message-btn{
+    height: 40px;
+    width:  40px;
+    border-radius: 30px;
+    background-color: #2669EA ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.mic-btn{
+    height: 40px;
+    width:  40px;
+    border-radius: 30px;
+    background-color: rgb(8, 182, 8) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
