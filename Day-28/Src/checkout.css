@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sankofa+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sankofa+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 740px;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#payment-page{
+    border: 1px solid rgba(128, 128, 128, 0.211);
+    border-radius: 20px;
+    width: 40vw;
+    height: 400px;
+    padding: 20px;
+}
+
+
+
+
+#checkout-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+#checkout-heading h1{
+    font-family: "Sankofa Display", sans-serif;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#checkout-heading img{
+    width: 15vw;
+    
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form div{
+    width: 40vw;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+form div input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.225);
+    border-radius: 10px;
+    padding-left: 20px;
+    
+}
+
+#username{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100px;
+    width: 96.5%;
+}
+
+
+#payment{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100px;
+}
+
+.final-order{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(255, 0, 0, 0.533);
+}
+
+.final-order button{
+    border: none;
+    height: 40px;
+    width: 10vw;
+    background-color: greenyellow;
+    color: black;
+    font-size: 1em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.payment-notification{
+    height: 330px;
+    background-image: url(../Assests/Icones/3544858.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+

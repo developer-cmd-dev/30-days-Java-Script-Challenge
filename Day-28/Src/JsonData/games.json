@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Valorant",
+        "poster": "https://wallpapers.com/images/featured/valorant-305kescxw5dpup7y.jpg",
+        "price": 2000,
+        "description": "Valorant is a team-based first-person tactical hero shooter set in the near future. Players play as one of a set of Agents, characters based on several countries and cultures around the world. In the main game mode, players are assigned to either the attacking or defending team with each team having five players on it."
+    },
+    {
+        "id": 2,
+        "name": "Warzone",
+        "poster": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw-wz/MWIII-S3-ANNOUNCEMENT-WZ-001.jpg",
+        "price": 3000,
+        "description": "This is a first-person shooter, set in the Call of Duty universe, in which players engage in multiplayer battle royale- and plunder-style skirmishes. Players assume the roles of soldiers/freedom fighters battling to be the last man standing or to earn the most money via scavenging and performing objectives."
+    },
+    {
+        "id": 3,
+        "name": "Apex Legends",
+        "poster": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=60,format=auto/https://editors.dexerto.com/wp-content/uploads/2021/06/03/apex-legends-pick-rate-most-popular-legends.jpg",
+        "price": 1000,
+        "description": "Gameplay. Apex Legends is an online multiplayer battle royale game featuring squads of three players using pre-made characters with distinctive abilities, called 'Legends', similar to those of hero shooters. Alternate modes have been introduced allowing for single and for two-player squads since the game's release." 
+    },
+    {
+        "id": 4,
+        "name": "GTA 5",
+        "poster": "https://image.api.playstation.com/vulcan/ap/rnd/202203/0911/VIB0SeEj9vT6DTv7P4thJLZi.jpg",
+        "price": 1690,
+        "description": "Gameplay. Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective. Players complete missions—linear scenarios with set objectives—to progress through the story. Outside of the missions, players may freely roam the open world."
+    },
+    {
+        "id": 6,
+        "name": "PUBG PC",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyxXlvCrakDVc2ubCNuXzaJ8xxnq2B9EK6KQ&s.jpg",
+        "price": 100,
+        "description": "PUBG: BATTLEGROUNDS is a battle royale that pits 100 players against each other. Players will land, loot, and survive in a shrinking battleground as they outplay their opponents to become the lone survivor."
+    },
+    {
+        "id": 7,
+        "name": "God Of War Ragnrok.",
+        "poster": "https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/aqZdSwWyy9JcQ66BxHDKrky6.jpg",
+        "price": 400,
+        "description": "It is the ninth installment in the series, the ninth chronologically, and the sequel to 2018's God of War. Loosely based on Norse mythology, the game is set in ancient Scandinavia and features series protagonist, Kratos, and his now teenage son, Atreus."
+    },
+    {
+        "id": 8,
+        "name": "Call Of Duty Cold war.",
+        "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/capsule_616x353.jpg?t=1678294805",
+        "price": 6000,
+        "description": "In Call of Duty: Modern Warfare, players will be thrust into an immersive narrative spanning the entire game. Experience the ultimate online playground with classic multiplayer, or squad-up and play cooperatively in a collection of elite operations accessible to all skill levels."
+    }
+]
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+
+<body>
+
+
+
+    <div id="payment-page">
+
+        <div id="checkout-heading">
+            <h1>Pixel Emporium</h1>
+            <img src="../Assests/Icones/pngwing.com (1).png" alt="">
+        </div>
+
+
+        <form action="" >
+            <div id="username">
+                <input class="input" type="text" name="text" id="name" placeholder="Name.">
+                <input class="input" type="text" name="text" id="last-name" placeholder="Last name.">
+            </div>
+            <div class="address">
+                <input class="input" id="address" type="text" placeholder="Address">
+            </div>
+            <div class="phone-number">
+                <input id="phone-number" type="number" max=10 min="10" placeholder="Phone No.">
+            </div>
+            <div class="payment">
+                <input class="input" id="card-number" type="number" max="16" placeholder="Card Number">
+                <input class="input" id="expiry-date" type="text" placeholder="Expiry Date">
+                <input class="input" id="cvv" type="text" placeholder="CVV">
+            </div>
+            <div class="final-order">
+                <h3 id="showPrice">Total Amount</h3>
+                <button id="place-order">Place order</button>
+
+            </div>
+
+
+        </form>
+
+
+        <div class="payment-notification" style="display: none;"></div>
+    </div>
+
+    <script src="checkout.js"></script>
+</body>
+
+</html>

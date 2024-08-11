@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Rog Strix 4070",
+        "poster": "https://compify.in/wp-content/uploads/2023/01/STRIX-RTX-4070-TI-5.jpg",
+        "price": 200000,
+        "RAM": 12
+    },
+    {
+        "id": 2,
+        "name": "Rog Matrix Platinum",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWvCN111Wqnb1kbSfwL4dtMQMiL51-igb0oQ&s",
+        "price": 300000,
+        "RAM": 12 
+    },
+    {
+        "id": 3,
+        "name": "Nvidia rtx 4090",
+        "poster": "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/geforce-ada-4090-web-og-1200x630.jpg",
+        "price": 200000,
+        "RAM": 64
+
+    }
+]

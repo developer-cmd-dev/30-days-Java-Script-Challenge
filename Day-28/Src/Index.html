@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Emporium</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <h2>Pixel Emporium.</h2>
+            </div>
+            <div class="center">
+                <div class="nav-menu" id="home">
+                    <p>Home</p>
+                </div>
+                <div class="nav-menu" id="Cart">
+                    <p>Cart</p>
+                </div>
+                <div class="nav-menu" id="product">
+                    <p>Products</p>
+                </div>
+
+
+            </div>
+            <div class="right">
+                <input type="search" placeholder="Search Products...">
+            </div>
+        </nav>
+
+    </header>
+
+<!-- Main page -->
+    <main style="">
+        <div class="image-slider">
+            <div class="slider-poster">
+                <h1></h1>
+            </div>
+            <div class="slider-poster">
+                <h1></h1>
+            </div>
+            <div class="slider-poster">
+                <h1></h1>
+            </div>
+            <div class="slider-poster">
+                <h1></h1>
+            </div>
+
+
+        </div>
+
+        <div class="shop-container">
+
+            <div class="items-lists">
+                <div class="items">
+                    <div id="game-poster" class="posters">
+                    </div>
+                    <div class="go-to-page">
+                        <button>Shop Games </button>
+                    </div>
+
+                </div>
+                <div class="items">
+                    <div id="graphics-card-poster" class="posters">
+                    </div>
+                    <div class="go-to-page">
+                        <button>Shop Graphics Cards.<button>
+                    </div>
+
+                </div>
+
+
+                <div class="items">
+                    <div id="gaming-laptop-poster" class="posters">
+                    </div>
+                    <div class="go-to-page">
+                        <button>Shop Gaming Laptop</button>
+                    </div>
+
+                </div>
+
+
+                <div class="items">
+                    <div id="pc-accesories-poster" class="posters">
+                    </div>
+                    <div class="go-to-page">
+                        <button>Shop Pc Accesories</button>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+<!-- Product page -->
+    <div class="all-items-page" style="display: none;">
+
+        <div id="item-heading">
+            <div class="navigation-btn">
+                <button id="navigation-product-page"><img src="../Assests/Icones/ic--baseline-arrow-circle-left.png"
+                        alt=""></button>
+            </div>
+            <p id="product-heading">All Items</p>
+        </div>
+
+        <div class="all-items">
+            <div class="product-container">
+
+            </div>
+
+
+
+            <!-- Total amount Container -->
+            <div class="cart-container">
+                <div class="cart-popup-heading">
+                    <div style="background-color: rgba(0, 0, 0, 0.31); display: flex;align-items: center;justify-content: center;width: 5vw; height: 45px; border-radius: 15px;">
+                        <img src="../Assests/Icones/ic--sharp-shopping-cart.png" alt="">
+                        <p class="totalProduct" style="color: white; font-size: 1.4em; margin-left: 10px;"></p>
+                    </div>
+                    <div style="background-color: rgba(0, 0, 0, 0.31); display: flex;align-items: center;justify-content: center;width: fit-content; height: 45px; border-radius: 15px;">
+                        <p class="totalAmount" style="color: white; font-size: 1.2em; margin-left: 10px;margin-right: 10px;"></p>
+
+                    </div>
+               
+                </div>
+
+                <div class="total-amount-incart">
+                    <button id="cart-page-btn"
+                        style="border: none;display: flex;align-items: center;justify-content: center; background-color: black; width: 7vw; height: 40px;color: white; cursor: pointer; font-size: 1em; margin-right: 20px;border-radius: 10px;"><img src="../Assests/Icones/ic--sharp-shopping-cart.png" style="width: 1.7vw;" alt="">Cart.</button>
+                   <a href="./Checkout.html" style="text-decoration: none;">
+                    <button
+                        style="border: none;display: flex;align-items: center;justify-content: center; background-color: White; width: 8vw; height: 40px;color: Place; font-size: 1em; margin-right: 20px;cursor: pointer;border-radius: 10px;"id="checkout-page"><img style="width: 2vw;" src="../Assests/Icones/ic--baseline-location-on.png" alt="">Place</button>
+                   </a> 
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+<!-- Cart page -->
+    <div class="cart-page" style="display: none;">
+        <div id="cart-page-items"
+            style="height: 540px; overflow-y: auto; width: 100%; display: flex;align-items: center;justify-content: start;flex-direction: column;">
+
+        </div>
+
+
+<!-- Total amount show container. -->
+        <div class="final-cart-amount" style=" width:60%;  ;
+        display: flex; align-items: center;justify-content: center;height: 60px; color: white;">
+            <div class="cart-popup-heading" style=" height: 40px; width: fit-content;background-color: rgba(0, 0, 0, 0.247);color: white; border-radius: 10px;">
+                <p class="totalAmount" style="margin-left: 10px; margin-right: 10px;"></p>
+            </div>
+
+            <div class="final-cart-amount">
+                <a href="./Checkout.html" style="text-decoration: none;"><button
+                    style="border: none;display: flex;align-items: center;justify-content: center; border-radius: 10px;margin-left: 20px; cursor: pointer; background-color: white; width: 8vw; height: 40px;color: blac;  margin-right: 20px;"
+                    id="checkout-page"><img style="width: 2vw;" src="../Assests/Icones/ic--baseline-location-on.png" alt=""> Place</button></a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

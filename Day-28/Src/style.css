@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sankofa+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sankofa+Display&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+
+    height: 620px;
+    width: 100%;
+    }
+
+body{
+    
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,.1)), url(https://images.hdqwalls.com/download/assassins-creed-shadows-qc-1280x720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Josefin Sans", sans-serif;
+   
+}
+
+
+
+/* Nav bar styling */
+ nav{
+height: 60px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+margin-bottom: 20px;
+
+}
+
+.left{
+    width: 30%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left h2{
+    font-family: "Sankofa Display", sans-serif;
+    font-weight: 200;
+    font-size: 2em;
+}
+
+.center{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.051);
+    backdrop-filter: blur(100px);
+    transform: skewX(-20deg);
+}
+
+.center div{
+    display: flex;
+    cursor: pointer;
+    color: white;
+    font-weight: 200;
+}
+
+#home{
+    width: 5vw;     
+    height: 30px;      
+    background-color: #A6140F;  
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    position: relative;
+    transition: 1s;
+   
+}
+
+#cart{
+    width: 5vw;     
+    height: 30px;      
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    position: relative;
+    transition: 1s;
+}
+
+#product{
+    width: 5vw;     
+    height: 30px;      
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    position: relative;
+    transition: 1s;
+}
+
+.center div:hover{
+  
+    width: 5vw;     
+    height: 30px;      
+    background-color: #A6140F;  
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    position: relative;
+    transition: 1s;
+    color: black;
+    font-weight: 400;
+    
+}
+
+.center div p{
+    transform: skewX(20deg);
+   
+}
+
+
+.right{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right input{
+    border: none;
+    width: 50%;
+    height: 60%;
+    transform: skewX(-20deg);    
+    padding-left: 20px;
+}
+
+
+
+/* Main container Styling. */
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    }
+
+
+.image-slider{
+width: 90vw;
+height: 320px;
+/* background-color: rgba(255, 255, 255, 0.068); */
+/* backdrop-filter: blur(10px); */
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: start;
+overflow: hidden;
+}
+
+
+
+.slider-poster{
+    min-width: 88vw;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+    transition:  1s ;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    color: white;
+    
+}
+
+.slider-poster h1{
+    font-weight: 300;
+    font-size: 3em;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+.shop-container{
+    width: 90%;
+    height: 300px;
+    /* background-color: rgba(255, 255, 255, 0.068);
+    backdrop-filter: blur(10px);  */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.items-lists{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+}
+
+.items{
+    width: 20vw;
+    height: 250px;
+    border-radius: 5px;
+}
+
+#game-poster{
+    width: 100%;
+    height: 180px;
+    background-image: url(../Assests/Backgrounds/dragon-age-the-3840x2160-17329.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#graphics-card-poster{
+    width: 100%;
+    height: 180px;
+    background-image: url(https://lifehacker.com/imagery/articles/01HF2GSGJWPV0KJFBZWF2YNQAP/hero-image.fill.size_1200x675.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#gaming-laptop-poster{
+    width: 100%;
+    height: 180px;
+    background-image: url(https://dlcdnrog.asus.com/rog/media/1674705497799.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#pc-accesories-poster{
+    width: 100%;
+    height: 180px;
+    background-image: url(https://assets2.razerzone.com/images/og-image/pc-accessories-category-OGimage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 5px;
+}
+
+.go-to-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 67px;
+    background-color: rgba(255, 255, 255, 0.173);
+    backdrop-filter: blur(10px);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.go-to-page button{
+    border: none;
+    background:none;
+    color: white;
+    font-size: 1em;
+}
+.go-to-page:hover{
+    background-color: #A6140F;
+    font-size: 1.1em;
+    
+}
+
+
+
+/* All-items-page */
+
+.all-items-page{
+width: 90%;
+height: 640px;
+margin: auto;
+background-color: rgba(255, 255, 255, 0.111);
+backdrop-filter: blur(10px);
+border-radius: 20px;
+display: none;
+
+
+}
+
+
+#item-heading{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: fit-content;
+   padding-right: 10px;
+
+}
+
+.navigation-btn{
+    width: 9vw;
+    border: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation-btn button{
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-btn button img{
+    width: 2.4vw;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.navigation-btn button img:hover{
+    width: 2.56vw;
+}
+
+
+#item-heading p{
+  font-weight: 300;
+  background-color: rgba(0, 0, 0, 0.232)   ;
+  height: 80%;
+  width: 9vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.all-items{
+height: 580px;
+width: 95%;
+margin: auto;
+
+
+}
+
+
+.product-container{
+    height:550px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Creates 3 equal columns */
+    gap: 10px; /* Adds space between the grid items */
+    overflow-y: auto;
+}
+
+.products{
+    width: 15vw;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.075);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+
+
+.products-poster{
+    width: 100%;
+    height: 70%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.product-details{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product-name{
+    width: 85%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: white;
+    font-weight: 200;
+}
+
+.product-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-weight: 200;
+}
+
+.product-menu button{
+    border: none;
+    color: white;
+    height: 40px;
+    width: 2.7vw;
+    border-radius: 30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cart-container{
+    height: 12%;
+    width: 100%;
+    /* background-color: rgba(255, 255, 255, 0.086);
+    backdrop-filter: blur(20px); */
+   margin-top: 10px;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   display: none;
+   
+}
+
+
+.cart-popup-heading{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cart-popup-heading img{
+    width: 2vw;
+}
+
+
+
+#totalAmount {
+    color: rgb(58, 249, 58);
+}
+
+.total-amount-incart{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+.cart-page{
+width: 95%;
+height: 630px;
+margin: auto;
+background-color: rgba(255, 255, 255, 0.073);
+backdrop-filter: blur(10px);
+display: flex;
+justify-content: start;
+align-items: center;
+flex-direction: column;
+
+}
+
+.cart-items{
+width: 100%;
+height: 100px;
+border-bottom: 1px solid white;
+margin-top: 20px;
+width: 98%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.cart-item-poster{
+    height: 80px;
+    transform: skew(-20deg);
+    width:30% ;
+}
+
+
+
+.quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12vw;
+    width: 30%;
+}
+
+
+
+
+.increment{
+background-color: #A6140F;
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+transform: skew(-20deg);
+
+}
+
+.increment img{
+    width: 2vw;
+   
+}
+
+.quantityCount{
+    border: none;
+    height: 30px;
+    width: 2vw;
+    transform: skew(-20deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+    background-color: white;
+
+ 
+}
+
+.decrement{
+    background-color: #A6140F;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: skew(-20deg);
+}
+
+.decrement img{
+ width: 2vw;
+}
+
+.deleteItem{
+    background-color: white;
+    border: none;
+    width: 3vw;
+    transform: skew(-20deg);
+    margin-left: 30px;
+
+    
+}
+
+.deleteItem img{
+    width: 1.7vw;
+}

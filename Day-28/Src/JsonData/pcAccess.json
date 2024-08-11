@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "name": "Rog Strix B660",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyLl93DtE6YmgWvTv819yVICiCymWaR46MMw&s",
+        "price": 45000,
+        "discription":"ROG Strix B660-A Gaming WiFi offers robust power delivery and optimized cooling to unleash the performance of the latest 14th or 13th or 12th Gen Intel® CPUs. Meanwhile, onboard PCIe® 5.0 and three PCIe 4.0 M. 2 slots provide lightning-fast data transfers for an endless variety of scenarios."
+    },
+    {
+        "id": 1,
+        "name": "Rog Strix Scope.",
+        "poster": "https://m.media-amazon.com/images/I/91YxKZjwOPL.jpg",
+        "price": 15000,
+        "discription":"Take on all comers with ROG Strix Scope RX, the first mechanical RGB gaming keyboard featuring exclusive ROG RX Red Optical Mechanical Switches. These switches provide a 100-million-keystroke lifespan and offer consistent linear keystrokes with immediate response. In addition, each switch has a central RGB LED ."
+    },
+    {
+        "id": 3,
+        "name": "Rog Strix Impact.",
+        "poster": "https://dlcdnwebimgs.asus.com/files/media/17810F23-638E-443F-8ACC-C033DA2E8D8F/V1/img/impact/hero-m.jpg",
+        "price": 20000,
+        "discription":"The ROG Strix Impact III Wireless is an ultralight 57-gram compact gaming mouse that features ROG SpeedNova wireless and Bluetooth® modes with long-lasting battery life. The ROG AimPoint optical sensor offers precise tracking, and the ROG Omni Receiver allows for connections to a keyboard and mouse via a single dongle."
+    },
+    {
+        "id": 4,
+        "name": "Rog Hone Aim.",
+        "poster": "https://dlcdnwebimgs.asus.com/files/media/6E60420A-1D50-4B33-AF9D-B10B6CBC710C/v1/img/gallery/gallery-1.jpg",
+        "price": 20000,
+        "discription":"This is asus Rog mouse pad."
+
+    }
+]
