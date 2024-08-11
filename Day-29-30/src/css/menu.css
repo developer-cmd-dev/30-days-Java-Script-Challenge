@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+BE+WAL:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sankofa+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+BE+WAL:wght@100..400&family=Playwrite+DK+Uloopet:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sankofa+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+BE+WAL:wght@100..400&family=Playwrite+DK+Uloopet:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sankofa+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+BE+WAL:wght@100..400&family=Playwrite+DK+Uloopet:wght@100..400&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sankofa+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.menu{
+    height: 740px;
+    width: 20%;
+    border-right: 1px solid rgba(128, 128, 128, 0.292);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.logo{
+    font-family:  "Playwrite DK Uloopet", cursive;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.logo img{
+width: 16vw;
+}
+
+.menu-btn{
+height: 400px;
+width: 40%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: column;
+
+}
+
+
+.handleBtn{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.handleBtn button {
+    border: none;
+    background: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.menu-btn button img{
+    width: 2vw;
+    margin-right: 10px;
+}
+
+
+.logout{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.logout button{
+    background: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 1em;
+}
+
+.logout button img{
+    width: 2vw;
+    margin-right: 10px;
+}
+
+
+

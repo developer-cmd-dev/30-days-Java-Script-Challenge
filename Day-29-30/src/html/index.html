@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect.</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/userpage.css">
+    <link rel="stylesheet" href=../css/mainpage.css>
+    <link rel="stylesheet" href=../css/createpost.css>
+</head>
+
+<body>
+
+<div class="authentication-page">
+
+</div>
+
+    <div class="menu">
+        <div class="logo"><img src="../../public/Logo/logo-white.png" alt=""></div>
+
+        <div class="menu-btn">
+            <div class="handleBtn">
+                <button class="pagination" id="home" style="cursor: pointer;"><img src="../../public/Icones/lucide--house.png"
+                        alt="">Home</button>
+                <button class="pagination" id="profile" style="cursor: pointer;"><img src="../../public/Icones/lucide--circle-user-round.png"
+                        alt="">Profile</button>
+                <button id="message"><img src="../../public/Icones/lucide--message-circle.png" alt="">Message</button>
+                <button id="notification"><img src="../../public/Icones/lucide--heart.png" alt="">Notification</button>
+                <button class="pagination" id="create"><img src="../../public/Icones/lucide--square-plus.png"
+                        alt="">Create</button>
+            </div>
+
+        </div>
+
+        <div class="logout">
+            <button><img src="../../public/Icones/material-symbols--exit-to-app.png" alt="">Log out</button>
+        </div>
+
+    </div>
+
+    <!-- All post page -->
+    <div class="main-page"  >
+        <div class="story-container">
+            <div class="story"><img src="../../public/Memojis/male.png" alt=""></div>
+            <div class="story"><img src="../../public/Memojis/female.png" alt=""></div>
+            <div class="story"><img src="../../public/Memojis/male2.png" alt=""></div>
+            <div class="story"><img src="../../public/Memojis/female2.png" alt=""></div>
+            <div class="story"><img src="../../public/Memojis/male3.png" alt=""></div>
+            <div class="story"><img src="../../public/Memojis/female3.png" alt=""></div>
+            <div class="story"><img src="../../public/Memojis/female4.png" alt=""></div>
+        </div>
+
+        <div class="post-container">
+           
+
+        </div>
+
+    </div>
+
+
+    <!-- User Page -->
+    <div class="user-page" style="display: none;">
+        <div class="profile">
+
+            <div class="profile-pic" style="display: flex;align-items: center;justify-content: center; border: 2px solid rgba(128, 128, 128, 0.318); overflow: hidden;" >
+                <img id="profile-picture" src="../../public/Icones/Shiv Ji Laptop Wallpaper.jpg" alt="" style="width: 8vw;">
+            </div>
+
+            <div class="user-detail">
+                <div class="username">
+                    <h3>_shiv_he_satya_hai_</h3>
+                    <button>Edit profile</button>
+                </div>
+
+                <div class="followers">
+                    <p id="totalPost">0 Posts</p>
+                    <p>299 followers</p>
+                    <p>299 following</p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="post">
+
+        </div>
+    </div>
+
+
+    <!-- Create Post Container -->
+
+    <div class="create-post" style="display: none;">
+        <div class="create-post-content">
+            <div class="crete-post-heading">
+                <h4>Create new post</h4>
+            <button id="close-btn">close</button></div>
+            <div class="create-post-container">
+                <div class="post-picture">
+                    <img id="previewImage" src="../../public/Icones/ic--outline-add-photo-alternate.png" alt="">
+                    <p>Add Photo.</p>
+                    <input id="takeImage" type="file">
+                    <button id="post-btn">Post</button>
+                </div>
+                <div class="add-caption">
+                    <textarea id="caption" name="caption" rows="20" cols="35" placeholder="Enter your caption here..."></textarea>
+                </div>
+    
+            </div>
+        </div>
+        
+
+    </div>
+
+
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
